@@ -1,0 +1,651 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+
+}
+
+
+body{
+
+    background:#070707;
+    color:#ffffff;
+
+
+    font-family:
+    Arial,
+    Helvetica,
+    sans-serif;
+
+}
+
+
+
+.banner{
+
+    min-height:720px;
+
+    background:
+
+    linear-gradient( 90deg,#050505 20%,#111111 70%,#050505   );
+
+
+}
+
+
+
+.container{
+
+
+    max-width:1400px;
+
+    margin:auto;
+
+    padding:70px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+
+}
+   
+    
+a{
+    text-decoration:none;
+    color:inherit;
+    
+}
+.menu-principal {
+    width:  100%;
+    background-color: rgb(19, 19, 19);
+    height: 80px;
+    font-size: larger;
+}
+
+.menu-principal ul{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+}
+
+.menu ul{
+    list-style: none;
+    padding-left: 0;
+  
+    
+    
+}
+
+ul li{
+    list-style: none;
+    font-size: 15px;
+    display:inline-block;
+    justify-content: center;
+    padding-top: 10px;
+    margin-right: 10px;    
+    text-decoration:none;
+    
+
+}
+.conteudo{
+
+    width:45%;
+
+}
+
+
+
+.logo{
+
+    font-size:60px;
+
+    font-weight:800;
+
+    letter-spacing:5px;
+
+
+}
+
+
+
+
+
+.servicos{
+
+
+    margin-top:35px;
+
+    font-size:14px;
+
+    letter-spacing:4px;
+
+    color:#999;
+
+
+}
+
+
+
+h1{
+
+    margin-top:45px;
+
+
+    font: size 50px;
+
+    line-height:1;
+
+    text-transform:uppercase;
+
+
+}
+
+
+
+.texto{
+
+
+    margin-top:35px;
+
+    font-size:20px;
+
+    line-height:1.6;
+
+    color:#bbb;
+
+    max-width:500px;
+
+
+}
+
+.btn{
+    
+    display:inline-block;
+
+    margin-top:45px;
+
+    padding:18px 40px;
+
+    background:#ffffff;
+
+    color:#111;
+
+    border:none;
+
+    font-weight:bold;
+
+    letter-spacing:2px;
+
+    cursor:pointer;
+
+    transition:.3s;
+    border-radius: 5px;
+}
+
+button{
+
+
+    margin-top:45px;
+
+
+    padding:18px 40px;
+
+
+    background:#ffffff;
+
+
+    color:#111;
+
+
+    border:none;
+
+
+    font-weight:bold;
+
+
+    letter-spacing:2px;
+
+
+    cursor:pointer;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+button:hover{
+
+
+    background:#cccccc;
+
+
+}
+
+.capoeira1{
+    width: 100px;
+    position: absolute;
+
+}   
+.cards{
+    display:flex;    
+    align-items: center;
+    content-justify: center;
+    width: 0px;
+}
+.carrosel-item{
+    width: 10px;
+}
+
+.informacoes{
+
+
+    background:#101010;
+
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:40px;
+
+
+    padding:45px;
+
+
+}
+
+
+
+
+.card{
+
+
+    width:300px;
+
+
+}
+
+
+
+.card h3{
+
+
+    font-size:18px;
+
+    letter-spacing:2px;
+
+
+}
+
+
+
+.card p{
+
+
+    margin-top:15px;
+
+    color:#888;
+
+    line-height:1.5;
+
+
+}
+
+
+
+
+@media(max-width:900px){
+
+
+
+.container{
+
+
+    flex-direction:column;
+
+    padding:40px 25px;
+    border-radius: 5px;
+
+
+}
+
+
+
+.conteudo{
+
+
+    width:100%;
+
+    text-align:center;
+
+
+}
+
+
+
+.imagem-produto{
+
+
+    width:100%;
+
+    margin-top:50px;
+
+
+}
+
+
+
+h1{
+
+
+    font-size:45px;
+
+
+}
+
+
+
+.informacoes{
+
+
+    flex-direction:column;
+
+    align-items:center;
+
+
+}
+
+
+
+
+}
+
+.contato-container {
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 70px;
+
+    display: flex;
+
+    align-items: stretch;
+
+    justify-content: space-between;
+
+    gap: 50px;
+
+    background: #070707;
+    background: linear-gradient(90deg, #050505 20%, #111111 70%, #2e2e2e);
+    border-radius: 5px;
+
+}
+
+
+
+.localizacao {
+
+    width: 55%;
+
+    background: #101010;
+
+    padding: 30px;
+
+}
+
+
+.localizacao h2 {
+
+    margin-bottom: 25px;
+
+    font-size: 24px;
+
+    color: #ffffff;
+
+    letter-spacing: 1px;
+
+}
+
+
+.mapa {
+
+    width: 100%;
+
+    height: 400px;
+
+    border: none;
+
+    display: block;
+
+}
+
+
+
+
+.sidebar {
+
+    width: 45%;
+
+    background: #101010;
+
+    padding: 30px;
+
+    border-radius: 5px;
+
+}
+
+
+.sidebar h2 {
+
+    margin-bottom: 25px;
+
+    font-size: 24px;
+
+    color: #ffffff;
+
+    letter-spacing: 1px;
+    border-radius: 5px;
+
+}
+
+
+
+.contato label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-size: 13px;
+
+    font-weight: normal;
+
+    color: #aaaaaa;
+
+}
+
+
+
+
+.contato input,
+.contato textarea {
+
+    display: block;
+
+    width: 100%;
+
+    padding: 14px;
+
+    margin-bottom: 20px;
+
+    background: #1a1a1a;
+
+    color: #ffffff;
+
+    border: 1px solid #444444;
+
+    border-radius: 5px;
+
+    outline: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 15px;
+
+}
+
+
+
+.contato input:focus,
+.contato textarea:focus {
+
+    border-color: #888888;
+
+    background: #202020;
+
+}
+
+
+
+
+.contato textarea {
+
+    height: 150px;
+
+    resize: vertical;
+    border-radius: 10px;
+
+}
+
+
+
+
+.contato input.botao {
+
+    width: auto;
+
+    margin-top: 10px;
+
+    padding: 14px 35px;
+
+    background: #ffffff;
+
+    color: #111111;
+
+    border: none;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+    
+
+}
+
+
+
+.contato input.botao:hover {
+
+    background: #cccccc;
+
+}
+
+
+.rodape {
+
+    background: #101010;
+    background: linear-gradient(90deg, #050505 30%, #111111 70%, #212020);
+    height: 100px;
+
+    color: #888888;
+
+    text-align: center;
+
+    padding: 30px;
+
+    font-size: 14px;
+    
+    border-top: 1px solid #1c1c1c;
+
+}
+
+
+
+@media (max-width: 900px) {
+
+
+    .contato-container {
+
+        flex-direction: column;
+
+        padding: 40px 25px;
+
+        gap: 30px;
+        border-radius: 10px;
+
+    }
+
+
+    .localizacao,
+    .sidebar {
+
+        width: 100%;
+
+    }
+
+
+    .mapa {
+
+        height: 350px;
+
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+
+
+    .contato-container {
+
+        padding: 30px 15px;
+
+    }
+
+
+    .localizacao,
+    .sidebar {
+
+        padding: 20px;
+
+    }
+
+
+    .mapa {
+
+        height: 300px;
+
+    }
+
+
+}
