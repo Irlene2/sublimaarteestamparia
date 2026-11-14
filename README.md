@@ -1,4 +1,4 @@
-# Sublima Arte — versão revisada
+# Sublima Arte 
 
 ## Estrutura
 - `index.html`: página inicial
